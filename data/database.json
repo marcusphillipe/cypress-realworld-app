@@ -74,116 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "VTrwN8Sle",
-      "uuid": "d7a2b883-96f3-4be0-9240-e0fc962cfc17",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$VfIPLH.uERHdmCtnfSTljuh/cP38Z02xUF.mPR8INNP5WhyqIX5kq",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:46:23.127Z",
-      "modifiedAt": "2025-05-28T13:46:23.127Z"
-    },
-    {
-      "id": "e_4G7K_5O",
-      "uuid": "65ef1b0d-0507-4f5a-afe8-7599936c5046",
-      "firstName": "Marcus",
-      "lastName": "Ramos",
-      "username": "marcus.ramos",
-      "password": "$2a$10$EOaDmYNkaMmHObd3tpaSbOu2tm/zv53rCeAXXy9YI.Qk.cd7R5qdS",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:47:14.748Z",
-      "modifiedAt": "2025-05-28T13:47:14.748Z"
-    },
-    {
-      "id": "3d12rPYUV",
-      "uuid": "f0c03656-8622-4020-855d-9196ddd2fcdc",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$eX3zuLLPYcBNcBCNfJgp3errTA/XnSsgQyRurNtRmKNpxbX3MuBxG",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:49:31.565Z",
-      "modifiedAt": "2025-05-28T13:49:31.565Z"
-    },
-    {
-      "id": "T02RI-uU5",
-      "uuid": "6d7e29ae-1f8d-48ea-a256-d0ccba584dd2",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$km7JkEauAQOp7BJLhqxEauZhkDTaPljLhq5srdogprjWJccsnBXdm",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:49:46.857Z",
-      "modifiedAt": "2025-05-28T13:49:46.857Z"
-    },
-    {
-      "id": "ZgNnqvjSJ",
-      "uuid": "d7d7b14e-d3b1-4712-a7d5-411d3d2f3f13",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$uEs3a65Oz.PjC4uZhw17d.91hqm09JxgKWQZbZosQ/PJlSsGGGcrO",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:50:10.147Z",
-      "modifiedAt": "2025-05-28T13:50:10.147Z"
-    },
-    {
-      "id": "MGHwKWTVv",
-      "uuid": "e0affe53-2379-4d77-9d68-07d036920c7d",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$NkKFz5FnGhpgnp3emCfb6uHp6Iw.aH8CnnYvjbK0l82kHxcX2l3ie",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:50:30.922Z",
-      "modifiedAt": "2025-05-28T13:50:30.922Z"
-    },
-    {
-      "id": "HH2cBJFtv",
-      "uuid": "25213095-6d60-43f7-b45a-70fb7e5581cc",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$ncUUV2Vn6UCnC31ACblAYe3mYyqZoYM2UEedzhQXQA2wVrnvlKbJ2",
-      "balance": 0,
-      "createdAt": "2025-05-28T13:53:43.344Z",
-      "modifiedAt": "2025-05-28T13:53:43.344Z"
-    },
-    {
-      "id": "DbKQrNqaL",
-      "uuid": "806ef755-0869-439d-b365-96d5973fc20d",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$0PEgjX8igkYPKQnTFZaijOroGtC4.fjIvIidvzu80mAnYasLBYC1K",
-      "balance": 0,
-      "createdAt": "2025-05-28T14:00:46.187Z",
-      "modifiedAt": "2025-05-28T14:00:46.187Z"
-    },
-    {
-      "id": "M15Sr91Mq",
-      "uuid": "1c249378-c691-42d2-8070-afcbfe153a57",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$TmSM/TgjRKT9E5VdFbZzIOUqlafkWy93HmOOK6fWYJuaFAGHoUs4O",
-      "balance": 0,
-      "createdAt": "2025-05-28T14:02:13.588Z",
-      "modifiedAt": "2025-05-28T14:02:13.588Z"
-    },
-    {
-      "id": "VOZys2hAi",
-      "uuid": "ad85f3de-4ff0-4958-b984-42fe79346780",
-      "firstName": "Marcus",
-      "lastName": "Phillipe",
-      "username": "marcus.ramos",
-      "password": "$2a$10$416PsNzTUCtB9odZFtUWb.h6DOr/RlcSezxyqUytA/0qoA36UGwBi",
-      "balance": 0,
-      "createdAt": "2025-05-28T14:02:43.991Z",
-      "modifiedAt": "2025-05-28T14:02:43.991Z"
     }
   ],
   "contacts": [
@@ -9965,6 +9855,19 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "aiefRHToh",
+      "uuid": "0096acc0-25a9-4315-b4d7-066dac7d4f53",
+      "amount": 30000,
+      "description": "🛫🛬 Airfare",
+      "receiverId": "_XblMqbuoP",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "pending",
+      "requestStatus": "pending",
+      "createdAt": "2025-05-28T15:39:03.699Z",
+      "modifiedAt": "2025-05-28T15:39:03.699Z"
     }
   ],
   "likes": [
@@ -10541,6 +10444,16 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "tBIKDOIac6",
+      "uuid": "d0d8d748-e2e3-48c6-aa5b-9c5091cbdc09",
+      "userId": "_XblMqbuoP",
+      "transactionId": "aiefRHToh",
+      "status": "requested",
+      "isRead": true,
+      "createdAt": "2025-05-28T15:39:03.702Z",
+      "modifiedAt": "2025-05-28T15:39:03.702Z"
     }
   ],
   "banktransfers": [
