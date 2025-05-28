@@ -74,6 +74,50 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "3vS9ulkyr",
+      "uuid": "9668bd51-1043-4ed0-a673-76bf2df2de9d",
+      "firstName": "Marcus",
+      "lastName": "Ramos",
+      "username": "marcus.ramos",
+      "password": "$2a$10$ciE9/rhBUmB06..QiEgO5e5ae0iiQ0uU3qrzPVZk2pliNfJ01ch8e",
+      "balance": 0,
+      "createdAt": "2025-05-28T15:47:34.322Z",
+      "modifiedAt": "2025-05-28T15:47:34.322Z"
+    },
+    {
+      "id": "IQJAkw9oI",
+      "uuid": "8d10d430-29dc-4c93-9cc2-6c78a8c22f4c",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcus.ramos",
+      "password": "$2a$10$J.2/pC9FhJqUemOPQcVGau1tkHjXhQxAIpU.rX6YeSzIl/KHPRRKu",
+      "balance": 0,
+      "createdAt": "2025-05-28T16:33:39.974Z",
+      "modifiedAt": "2025-05-28T16:33:39.974Z"
+    },
+    {
+      "id": "GZ2CFzATa",
+      "uuid": "f07872d5-d2eb-4b82-9aa6-0298d3e2c99f",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcus.ramos",
+      "password": "$2a$10$TKMytkv16Vm8J2ziAfCQe.G98x9wjVX8w3ENgrxR4tug7llRHv.3q",
+      "balance": 0,
+      "createdAt": "2025-05-28T16:33:47.833Z",
+      "modifiedAt": "2025-05-28T16:33:47.833Z"
+    },
+    {
+      "id": "NlqCe5pIV",
+      "uuid": "5aa30b4e-c382-40d5-b660-0661da9edaef",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcus.ramos",
+      "password": "$2a$10$NkwyRReJgkDqr5VDslgkbuCVvcXUnP7e2UoGMMo833AM0UAE0wDfS",
+      "balance": 0,
+      "createdAt": "2025-05-28T16:35:03.012Z",
+      "modifiedAt": "2025-05-28T16:35:03.012Z"
     }
   ],
   "contacts": [
@@ -253,6 +297,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "beZ3C5OFf",
+      "uuid": "b6f432ae-829a-4487-a16f-aa33f911d122",
+      "userId": "3vS9ulkyr",
+      "bankName": "2121421421",
+      "accountNumber": "111111111",
+      "routingNumber": "123455.24",
+      "isDeleted": false,
+      "createdAt": "2025-05-28T15:47:48.424Z",
+      "modifiedAt": "2025-05-28T15:47:48.424Z"
     }
   ],
   "transactions": [

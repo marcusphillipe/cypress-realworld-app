@@ -1,7 +1,7 @@
 import userData from "../../fixtures/userData"
-import SignPage from "../Pages/signinPage"
+import SigninPage from "../Pages/signinPage"
 
-const signinPage = new SignPage
+const signinPage = new SigninPage
 
 describe('Signin Real World App', () => {
     it('Signin - Sucess', () => {

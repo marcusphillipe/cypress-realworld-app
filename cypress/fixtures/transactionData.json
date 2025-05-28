@@ -1,0 +1,10 @@
+{
+    "transactionSucess": {
+        "amount": "500",
+        "note": "Test Sucess"
+    },
+    "transactionFail": {
+        "amount": "2500",
+        "note": "Test Fail"
+    }
+}

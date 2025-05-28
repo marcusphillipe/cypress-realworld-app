@@ -1,4 +1,4 @@
-class SignPage {
+class SigninPage {
     selectorsList() {
         const selectors = {
             firstNameField: "[name='firstName']",
@@ -91,4 +91,4 @@ class SignPage {
     }
 }
 
-export default SignPage
+export default SigninPage
