@@ -1,0 +1,23 @@
+{
+    "signinSucess": {
+        "firstName": "Marcus",
+        "lastName": "Phillipe",
+        "username": "marcus.ramos",
+        "password": "test123"
+    },
+    "signinFail": {
+        "firstName": "Marcus",
+        "lastName": "Phillipe",
+        "username": "marcus.ramos",
+        "password": "test123",
+        "wrongPassword": "test"
+    },
+    "loginSucess": {
+        "username": "marcus.ramos",
+        "password": "test123"
+    },
+    "loginFail": {
+        "username": "test",
+        "password": "test"
+    }
+}
