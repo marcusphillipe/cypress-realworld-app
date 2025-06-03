@@ -19,5 +19,9 @@
     "loginFail": {
         "username": "test",
         "password": "test"
+    },
+    "loginWithBalance": {
+        "username": "Dina20",
+        "password": "s3cret"
     }
 }

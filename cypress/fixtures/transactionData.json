@@ -1,10 +1,10 @@
 {
     "transactionSucess": {
-        "amount": "500",
+        "amount": "50",
         "note": "Test Sucess"
     },
     "transactionFail": {
-        "amount": "2500",
+        "amount": "2500000",
         "note": "Test Fail"
     }
 }

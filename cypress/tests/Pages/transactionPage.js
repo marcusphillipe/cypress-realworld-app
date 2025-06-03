@@ -6,7 +6,8 @@ class TransactionPage {
             amountField: "[name='amount']",
             noteField: "[placeholder='Add a note']",
             submitButton: "[data-test='transaction-create-submit-payment']",
-            createNewTransactionButton: "[data-test='new-transaction-create-another-transaction']"
+            confirmTransaction: "[role='alert']",
+            createNewTransactionButton: "[data-test='new-transaction-create-another-transaction']",
         }
         return selectors
     }
@@ -17,6 +18,7 @@ class TransactionPage {
         cy.get(this.selectorsList().amountField).type(amount)
         cy.get(this.selectorsList().noteField).type(note)
         cy.get(this.selectorsList().submitButton).click()
+        cy.get(this.selectorsList().confirmTransaction).contains("Insufficient Funds!")
     }
 
     newTransactionWithSufficientFunds(amount, note) {
@@ -25,6 +27,7 @@ class TransactionPage {
         cy.get(this.selectorsList().amountField).type(amount)
         cy.get(this.selectorsList().noteField).type(note)
         cy.get(this.selectorsList().submitButton).click()
+        cy.get(this.selectorsList().confirmTransaction).contains("Transaction Submitted!")
         cy.get(this.selectorsList().createNewTransactionButton).should('be.visible')
     }
 }
