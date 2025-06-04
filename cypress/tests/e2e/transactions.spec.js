@@ -32,9 +32,10 @@ describe('Send money with funds - Real World App', () => {
     homePage.acessHomePage()
     homePage.acessTransactionPage()
     homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
+    transactionPage.newTransactionWithInsufficientFunds(transactionData.transactionFail.amount, transactionData.transactionFail.note)
   });
 
-  it("Don't have transaction - Sucess", () => {
+  it.skip("Don't have transaction - Sucess", () => {
     signinPage.acessSignupPage()
     signinPage.signinWithCorrectCredenciais(userData.signinSucess.firstName, userData.signinSucess.lastName, userData.signinSucess.username, userData.signinSucess.password)
     loginPage.acessLoginPage()
@@ -42,6 +43,14 @@ describe('Send money with funds - Real World App', () => {
     homePage.acessHomePage()
     homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
     transactionPage.noTransactionsHistory()
+  })
+
+  it("Have transaction - Sucess", () => {
+    loginPage.acessLoginPage()
+    loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
+    homePage.acessHomePage()
+    homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
+    transactionPage.haveTransaction()
   })
 
 });

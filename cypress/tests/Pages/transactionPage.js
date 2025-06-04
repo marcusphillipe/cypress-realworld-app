@@ -8,7 +8,9 @@ class TransactionPage {
             submitButton: "[data-test='transaction-create-submit-payment']",
             confirmTransaction: "[role='alert']",
             createNewTransactionButton: "[data-test='new-transaction-create-another-transaction']",
-            noTransactionsText: "[data-test='empty-list-header']"
+            noTransactionsText: "[data-test='empty-list-header']",
+            personalTransactions: "[href='/personal']",
+            receiverName: "[data-test='transaction-receiver-Ec6hHyL6SC2F']"
         }
         return selectors
     }
@@ -33,7 +35,13 @@ class TransactionPage {
     }
 
     noTransactionsHistory() {
+        cy.get(this.selectorsList().personalTransactions).contains("Mine").click()
         cy.get(this.selectorsList().noTransactionsText).contains("No Transactions")
+    }
+
+    haveTransaction() {
+        cy.get(this.selectorsList().personalTransactions).contains("Mine").click()
+        cy.get(this.selectorsList().receiverName).should('be.visible')
     }
 }
 

@@ -10,10 +10,10 @@ class SignUpPage {
             passwordField: "[name='password']",
             alertPasswordField: '#password-helper-text',
             confirmPasswordField: "[name='confirmPassword']",
-            alertWrongPassword: '#confirmPassword-helper-text', 
+            alertWrongPassword: '#confirmPassword-helper-text',
             alertConfirmPasswordField: '#confirmPassword-helper-text',
             signupButton: "[type='submit']",
-            disableButton : "[disabled='']"
+            disableButton: "[disabled='']"
         }
         return selectors
     }

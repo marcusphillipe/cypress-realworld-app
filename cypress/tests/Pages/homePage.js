@@ -35,8 +35,6 @@ class HomePage {
                 cy.get(this.selectorsList().accountNumberField).type(accountNumber)
                 cy.get(this.selectorsList().saveButton).click()
                 cy.get(this.selectorsList().doneButton).click()
-            } else {
-                transactionPage.newTransactionWithInsufficientFunds(transactionData.transactionFail.amount, transactionData.transactionFail.note)
             }
         })
     }
