@@ -6,5 +6,8 @@
     "transactionFail": {
         "amount": "2500",
         "note": "Test Fail"
+    },
+    "contact": {
+        "name": "Ted Parisian"
     }
 }

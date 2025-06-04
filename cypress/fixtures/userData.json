@@ -1,11 +1,11 @@
 {
-    "signinSucess": {
+    "signUpSucess": {
         "firstName": "Marcus",
         "lastName": "Phillipe",
         "username": "marcusparamos",
         "password": "test123"
     },
-    "signinFail": {
+    "signUpFail": {
         "firstName": "Marcus",
         "lastName": "Phillipe",
         "username": "marcus.ramos",

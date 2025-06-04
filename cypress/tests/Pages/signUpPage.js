@@ -18,10 +18,10 @@ class SignUpPage {
         return selectors
     }
 
-    acessSignupPage() {
+    acessSignUpPage() {
         cy.visit('http://localhost:3000/signup')
     }
-    signinWithCorrectCredenciais(firstName, lastName, username, password) {
+    signUpWithCorrectCredenciais(firstName, lastName, username, password) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).type(username)
@@ -30,7 +30,7 @@ class SignUpPage {
         cy.get(this.selectorsList().signupButton).click()
     }
 
-    signinWithBlankFirstName(lastName, username, password,) {
+    signUpWithBlankFirstName(lastName, username, password,) {
         cy.get(this.selectorsList().firstNameField).click()
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).type(username)
@@ -40,7 +40,7 @@ class SignUpPage {
         cy.get(this.selectorsList().disableButton).should('be.visible')
     }
 
-    signinWithBlankFLastName(firstName, username, password,) {
+    signUpWithBlankFLastName(firstName, username, password,) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).click()
         cy.get(this.selectorsList().usernameField).type(username)
@@ -50,7 +50,7 @@ class SignUpPage {
         cy.get(this.selectorsList().disableButton).should('be.visible')
     }
 
-    signinWithBlankUsername(firstName, lastName, password) {
+    signUpWithBlankUsername(firstName, lastName, password) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).click()
@@ -60,7 +60,7 @@ class SignUpPage {
         cy.get(this.selectorsList().disableButton).should('be.visible')
     }
 
-    signinWithBlankPassword(firstName, lastName, username, password) {
+    signUpWithBlankPassword(firstName, lastName, username, password) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).type(username)
@@ -70,7 +70,7 @@ class SignUpPage {
         cy.get(this.selectorsList().disableButton).should('be.visible')
     }
 
-    signinWithBlankConfirmPasswordField(firstName, lastName, username, password) {
+    signUpWithBlankConfirmPasswordField(firstName, lastName, username, password) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).type(username)
@@ -80,7 +80,7 @@ class SignUpPage {
         cy.get(this.selectorsList().disableButton).should('be.visible')
     }
 
-    signinWithWrongPassword(firstName, lastName, username, password, wrongPassword) {
+    signUpWithWrongPassword(firstName, lastName, username, password, wrongPassword) {
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName)
         cy.get(this.selectorsList().usernameField).type(username)

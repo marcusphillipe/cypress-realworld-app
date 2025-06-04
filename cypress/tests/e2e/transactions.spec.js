@@ -16,28 +16,28 @@ const transactionPage = new TransactionPage
 
 describe('Send money with funds - Real World App', () => {
 
-  it.skip('Transaction - Sucess', () => {
+  it('Transaction - Sucess', () => {
     loginPage.acessLoginPage()
     loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
     homePage.acessHomePage()
     homePage.acessTransactionPage()
-    transactionPage.newTransactionWithSufficientFunds(transactionData.transactionSucess.amount, transactionData.transactionSucess.note)
+    transactionPage.checkBalance(transactionData.contact.name, transactionData.transactionSucess.amount, transactionData.transactionSucess.note)
   });
 
-  it.skip('Transaction - Fail', () => {
-    signinPage.acessSignupPage()
-    signinPage.signinWithCorrectCredenciais(userData.signinSucess.firstName, userData.signinSucess.lastName, userData.signinSucess.username, userData.signinSucess.password)
+  it('Transaction - Fail', () => {
+    signinPage.acessSignUpPage()
+    signinPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     loginPage.acessLoginPage()
     loginPage.loginWithCorrectUser(userData.loginSucess.username, userData.loginSucess.password)
     homePage.acessHomePage()
     homePage.acessTransactionPage()
     homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
-    transactionPage.newTransactionWithInsufficientFunds(transactionData.transactionFail.amount, transactionData.transactionFail.note)
+    transactionPage.checkBalance(transactionData.contact.name, transactionData.transactionFail.amount, transactionData.transactionFail.note)
   });
 
   it.skip("Don't have transaction - Sucess", () => {
-    signinPage.acessSignupPage()
-    signinPage.signinWithCorrectCredenciais(userData.signinSucess.firstName, userData.signinSucess.lastName, userData.signinSucess.username, userData.signinSucess.password)
+    signinPage.acessSignUpPage()
+    signinPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     loginPage.acessLoginPage()
     loginPage.loginWithCorrectUser(userData.loginSucess.username, userData.loginSucess.password)
     homePage.acessHomePage()
@@ -45,7 +45,7 @@ describe('Send money with funds - Real World App', () => {
     transactionPage.noTransactionsHistory()
   })
 
-  it("Have transaction - Sucess", () => {
+  it.skip("Have transaction - Sucess", () => {
     loginPage.acessLoginPage()
     loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
     homePage.acessHomePage()

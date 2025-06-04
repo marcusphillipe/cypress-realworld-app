@@ -5,38 +5,38 @@ const signUpPage = new SignUpPage
 
 describe('Sign Up Real World App', () => {
     it('Sign Up - Sucess', () => {
-        signUpPage.acessSignupPage(),
-            signUpPage.signinWithCorrectCredenciais(userData.signinSucess.firstName, userData.signinSucess.lastName, userData.signinSucess.username, userData.signinSucess.password)
+        signUpPage.acessSignUpPage(),
+            signUpPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     });
 
 
     it('Sign Up - Fail - Blank First Name Field', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithBlankFirstName(userData.signinFail.lastName, userData.signinFail.username, userData.signinFail.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithBlankFirstName(userData.signUpFail.lastName, userData.signUpFail.username, userData.signUpFail.password)
     });
 
     it('Sign Up - Fail - Blank Last Name Field', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithBlankFLastName(userData.signinFail.firstName, userData.signinFail.username, userData.signinFail.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithBlankFLastName(userData.signUpFail.firstName, userData.signUpFail.username, userData.signUpFail.password)
     });
 
     it('Sign Up - Fail - Blank Username Field', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithBlankUsername(userData.signinFail.firstName, userData.signinFail.lastName, userData.signinFail.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithBlankUsername(userData.signUpFail.firstName, userData.signUpFail.lastName, userData.signUpFail.password)
     });
 
     it('Sign Up - Fail - Blank Password Field', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithBlankPassword(userData.signinFail.firstName, userData.signinFail.lastName, userData.signinFail.username, userData.signinFail.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithBlankPassword(userData.signUpFail.firstName, userData.signUpFail.lastName, userData.signUpFail.username, userData.signUpFail.password)
     });
 
     it('Sign Up - Fail - Blank Confirm Password Field', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithBlankConfirmPasswordField(userData.signinFail.firstName, userData.signinFail.lastName, userData.signinFail.username, userData.signinFail.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithBlankConfirmPasswordField(userData.signUpFail.firstName, userData.signUpFail.lastName, userData.signUpFail.username, userData.signUpFail.password)
     });
 
     it('Sign Up - Fail - Wrong Password Match', () => {
-        signUpPage.acessSignupPage()
-        signUpPage.signinWithWrongPassword(userData.signinFail.firstName, userData.signinFail.lastName, userData.signinFail.username, userData.signinFail.password, userData.signinFail.wrongPassword)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithWrongPassword(userData.signUpFail.firstName, userData.signUpFail.lastName, userData.signUpFail.username, userData.signUpFail.password, userData.signUpFail.wrongPassword)
     });
 })
