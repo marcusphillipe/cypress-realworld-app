@@ -35,7 +35,7 @@ describe('Send money with funds - Real World App', () => {
     transactionPage.checkBalance(transactionData.contact.name, transactionData.transactionFail.amount, transactionData.transactionFail.note)
   });
 
-  it.skip("Don't have transaction - Sucess", () => {
+  it("Don't have transaction - Sucess", () => {
     signinPage.acessSignUpPage()
     signinPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     loginPage.acessLoginPage()
@@ -45,7 +45,7 @@ describe('Send money with funds - Real World App', () => {
     transactionPage.noTransactionsHistory()
   })
 
-  it.skip("Have transaction - Sucess", () => {
+  it("Have transaction - Sucess", () => {
     loginPage.acessLoginPage()
     loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
     homePage.acessHomePage()
