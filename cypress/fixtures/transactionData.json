@@ -4,7 +4,7 @@
         "note": "Test Sucess"
     },
     "transactionFail": {
-        "amount": "2500000",
+        "amount": "2500",
         "note": "Test Fail"
     }
 }

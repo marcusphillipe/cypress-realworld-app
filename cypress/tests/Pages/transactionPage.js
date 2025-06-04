@@ -8,6 +8,7 @@ class TransactionPage {
             submitButton: "[data-test='transaction-create-submit-payment']",
             confirmTransaction: "[role='alert']",
             createNewTransactionButton: "[data-test='new-transaction-create-another-transaction']",
+            noTransactionsText: "[data-test='empty-list-header']"
         }
         return selectors
     }
@@ -29,6 +30,10 @@ class TransactionPage {
         cy.get(this.selectorsList().submitButton).click()
         cy.get(this.selectorsList().confirmTransaction).contains("Transaction Submitted!")
         cy.get(this.selectorsList().createNewTransactionButton).should('be.visible')
+    }
+
+    noTransactionsHistory() {
+        cy.get(this.selectorsList().noTransactionsText).contains("No Transactions")
     }
 }
 

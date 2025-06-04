@@ -2,7 +2,7 @@
     "signinSucess": {
         "firstName": "Marcus",
         "lastName": "Phillipe",
-        "username": "marcus.ramos",
+        "username": "marcusparamos",
         "password": "test123"
     },
     "signinFail": {
@@ -13,7 +13,7 @@
         "wrongPassword": "test"
     },
     "loginSucess": {
-        "username": "marcus.ramos",
+        "username": "marcusparamos",
         "password": "test123"
     },
     "loginFail": {

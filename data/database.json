@@ -151,6 +151,72 @@
       "balance": 0,
       "createdAt": "2025-06-03T22:56:38.395Z",
       "modifiedAt": "2025-06-03T22:56:38.395Z"
+    },
+    {
+      "id": "UqADXs693",
+      "uuid": "da6bddf5-714c-4d2e-8763-b679e4eeb41e",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcus.ramos",
+      "password": "$2a$10$fqOLg/jCY/zbUb4ziRAJg.VR4PcpyUraMMRZcBx/OGn8k55gzpL4q",
+      "balance": 0,
+      "createdAt": "2025-06-03T23:59:05.643Z",
+      "modifiedAt": "2025-06-03T23:59:05.643Z"
+    },
+    {
+      "id": "6-XLHfxcV",
+      "uuid": "8f73951a-1483-4164-89e7-91e73992a37e",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcus.ramos",
+      "password": "$2a$10$hg2JxBdoveJ.rXFEEZVJpeHjM9wpjDDgCTi1koDvQwnX2v7bKV3nC",
+      "balance": 0,
+      "createdAt": "2025-06-04T00:00:21.751Z",
+      "modifiedAt": "2025-06-04T00:00:21.751Z"
+    },
+    {
+      "id": "e-nCxkGFa",
+      "uuid": "15564406-5e54-462c-8c80-3fc3f711628a",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcusparamos",
+      "password": "$2a$10$i.vLbsXYp3iH5Acx.T23Ye81iK3T9qmx1/z6ThkrSC1m0VuD5ejfu",
+      "balance": 0,
+      "createdAt": "2025-06-04T00:01:09.129Z",
+      "modifiedAt": "2025-06-04T00:01:09.129Z"
+    },
+    {
+      "id": "O83-qB353",
+      "uuid": "10d41bdb-d054-430a-bd5f-1e15864a5a82",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcusparamos",
+      "password": "$2a$10$72IRRLIu6P4..3NM8Clj/ejwh1jwv/8LdHH964DwnR85xq1hbbwt.",
+      "balance": 0,
+      "createdAt": "2025-06-04T00:01:51.536Z",
+      "modifiedAt": "2025-06-04T00:01:51.536Z"
+    },
+    {
+      "id": "5Y2Ha83oL",
+      "uuid": "edee9996-d8d5-4d7f-9de0-bf2b6976b638",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcusparamos",
+      "password": "$2a$10$4.M6Tl8UgSRbkNjVN3RsVuK1qxpSSXJONymItk81edzL0.OQrGspq",
+      "balance": 0,
+      "createdAt": "2025-06-04T00:02:44.017Z",
+      "modifiedAt": "2025-06-04T00:02:44.017Z"
+    },
+    {
+      "id": "2YkTX5Zuq",
+      "uuid": "1b4eaae0-9ba1-48a8-a35f-2e1a03b43f0e",
+      "firstName": "Marcus",
+      "lastName": "Phillipe",
+      "username": "marcusparamos",
+      "password": "$2a$10$Yjj3NN5iBPJOZS/gfWs9oe2a3bcP7P8jF/wAj8QADAWYumo/ZJwuu",
+      "balance": 0,
+      "createdAt": "2025-06-04T00:04:06.825Z",
+      "modifiedAt": "2025-06-04T00:04:06.825Z"
     }
   ],
   "contacts": [
@@ -341,6 +407,17 @@
       "isDeleted": false,
       "createdAt": "2025-06-03T22:53:42.961Z",
       "modifiedAt": "2025-06-03T22:53:42.961Z"
+    },
+    {
+      "id": "8A06a21la",
+      "uuid": "a78d5fc7-1b6f-43fa-9193-d513d85a1ab1",
+      "userId": "e-nCxkGFa",
+      "bankName": "Bankcard",
+      "accountNumber": "266999954152",
+      "routingNumber": "166963195",
+      "isDeleted": false,
+      "createdAt": "2025-06-04T00:01:54.957Z",
+      "modifiedAt": "2025-06-04T00:01:54.957Z"
     }
   ],
   "transactions": [
