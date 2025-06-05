@@ -63,7 +63,7 @@ cypress/
 │   └── userData.json
 ├── tests/
 │   ├── e2e/
-│   │   └── history.spec.js
+│   │   ├── history.spec.js
 │   │   ├── login.spec.js
 │   │   ├── signup.spec.js
 │   │   └── transactions.spec.js
