@@ -6,6 +6,7 @@ const transactionPage = new TransactionPage
 class HomePage {
     selectorsList() {
         const selectors = {
+            homePageButton: "[data-test='sidenav-home']",
             nextButton: "[data-test='user-onboarding-next']",
             bankNameField: "[placeholder='Bank Name']",
             routingNumberField: "[placeholder='Routing Number']",
@@ -19,7 +20,7 @@ class HomePage {
     }
 
     acessHomePage() {
-        cy.visit('http://localhost:3000/')
+        cy.visit('http://localhost:3000/').contains('Home')
     }
 
     acessTransactionPage() {

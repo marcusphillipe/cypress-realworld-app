@@ -3,15 +3,36 @@ import LoginPage from "../Pages/loginPage";
 
 const loginPage = new LoginPage
 
-describe('Login Real World App', () => {
+describe('Login - Real World App', () => {
 
-    it('Login - Sucess', () => {
+    it('Try to Login With Registered User', () => {
         loginPage.acessLoginPage()
-        loginPage.loginWithCorrectUser(userData.loginSucess.username, userData.loginSucess.password)
+        loginPage.loginWithCorrectCredentials(userData.loginWithBalance.username, userData.loginWithBalance.password)
     });
 
-    it('Login - Fail', () => {
+    it('Try to Login With Non-Registered User', () => {
         loginPage.acessLoginPage()
-        loginPage.loginWithWrongUser(userData.loginFail.username, userData.loginFail.password)
+        loginPage.loginWithWrongCredentials(userData.loginFail.username, userData.loginFail.password)
     });
+
+    it('Try to Login With Wrong User', () => {
+        loginPage.acessLoginPage()
+        loginPage.loginWithWrongCredentials(userData.loginFail.username, userData.loginWithBalance.password)
+    });
+
+    it('Try to Login With Wrong Password', () => {
+        loginPage.acessLoginPage()
+        loginPage.loginWithWrongCredentials(userData.loginWithBalance.username, userData.loginFail.password)
+    });
+
+    it('Try to Login Without Filling Fields', () => {
+        loginPage.acessLoginPage()
+        loginPage.loginWithoutFillingFields()
+    });
+
+    it('Register New User', () => {
+        loginPage.acessLoginPage()
+        loginPage.clickSignUpButton()
+    });
+
 });

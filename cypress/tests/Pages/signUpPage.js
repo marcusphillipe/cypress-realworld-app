@@ -19,7 +19,7 @@ class SignUpPage {
     }
 
     acessSignUpPage() {
-        cy.visit('http://localhost:3000/signup')
+        cy.visit('http://localhost:3000/signup').contains('Sign Up')
     }
     signUpWithCorrectCredenciais(firstName, lastName, username, password) {
         cy.get(this.selectorsList().firstNameField).type(firstName)

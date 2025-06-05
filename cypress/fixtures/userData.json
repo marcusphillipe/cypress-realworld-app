@@ -1,20 +1,20 @@
 {
     "signUpSucess": {
-        "firstName": "Marcus",
-        "lastName": "Phillipe",
-        "username": "marcusparamos",
-        "password": "test123"
+        "firstName": "Test",
+        "lastName": "1",
+        "username": "test1",
+        "password": "test"
     },
     "signUpFail": {
-        "firstName": "Marcus",
-        "lastName": "Phillipe",
-        "username": "marcus.ramos",
+        "firstName": "Test",
+        "lastName": "2",
+        "username": "test2",
         "password": "test123",
         "wrongPassword": "test"
     },
     "loginSucess": {
-        "username": "marcusparamos",
-        "password": "test123"
+        "username": "test1",
+        "password": "test"
     },
     "loginFail": {
         "username": "test",
@@ -23,5 +23,11 @@
     "loginWithBalance": {
         "username": "Dina20",
         "password": "s3cret"
+    },
+    "noHistoryUser": {
+        "firstName": "Test",
+        "lastName": "3",
+        "username": "test3",
+        "password": "test"
     }
 }

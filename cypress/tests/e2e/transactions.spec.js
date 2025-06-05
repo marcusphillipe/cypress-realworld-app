@@ -14,43 +14,25 @@ const signinPage = new SigninPage
 const transactionPage = new TransactionPage
 
 
-describe('Send money with funds - Real World App', () => {
+describe('Transaction - Real World App', () => {
 
-  it('Transaction - Sucess', () => {
+  it('Transaction With Funds', () => {
     loginPage.acessLoginPage()
-    loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
+    loginPage.loginWithCorrectCredentials(userData.loginWithBalance.username, userData.loginWithBalance.password)
     homePage.acessHomePage()
     homePage.acessTransactionPage()
     transactionPage.checkBalance(transactionData.contact.name, transactionData.transactionSucess.amount, transactionData.transactionSucess.note)
   });
 
-  it('Transaction - Fail', () => {
+  it('Transaction Without Funds', () => {
     signinPage.acessSignUpPage()
     signinPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     loginPage.acessLoginPage()
-    loginPage.loginWithCorrectUser(userData.loginSucess.username, userData.loginSucess.password)
+    loginPage.loginWithCorrectCredentials(userData.loginSucess.username, userData.loginSucess.password)
     homePage.acessHomePage()
     homePage.acessTransactionPage()
     homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
     transactionPage.checkBalance(transactionData.contact.name, transactionData.transactionFail.amount, transactionData.transactionFail.note)
   });
-
-  it("Don't have transaction - Sucess", () => {
-    signinPage.acessSignUpPage()
-    signinPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
-    loginPage.acessLoginPage()
-    loginPage.loginWithCorrectUser(userData.loginSucess.username, userData.loginSucess.password)
-    homePage.acessHomePage()
-    homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
-    transactionPage.noTransactionsHistory()
-  })
-
-  it("Have transaction - Sucess", () => {
-    loginPage.acessLoginPage()
-    loginPage.loginWithCorrectUser(userData.loginWithBalance.username, userData.loginWithBalance.password)
-    homePage.acessHomePage()
-    homePage.getStartedNavPage(chance.cc_type(), chance.natural({ min: 111111111, max: 999999999 }), chance.natural({ min: 111111111, max: 999999999999 }))
-    transactionPage.haveTransaction()
-  })
 
 });

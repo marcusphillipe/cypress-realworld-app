@@ -3,10 +3,10 @@ import SignUpPage from "../Pages/signUpPage"
 
 const signUpPage = new SignUpPage
 
-describe('Sign Up Real World App', () => {
+describe('Sign Up - Real World App', () => {
     it('Sign Up - Sucess', () => {
-        signUpPage.acessSignUpPage(),
-            signUpPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
+        signUpPage.acessSignUpPage()
+        signUpPage.signUpWithCorrectCredenciais(userData.signUpSucess.firstName, userData.signUpSucess.lastName, userData.signUpSucess.username, userData.signUpSucess.password)
     });
 
 
