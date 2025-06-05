@@ -63,6 +63,7 @@ cypress/
 │   └── userData.json
 ├── tests/
 │   ├── e2e/
+│   │   └── history.spec.js
 │   │   ├── login.spec.js
 │   │   ├── signup.spec.js
 │   │   └── transactions.spec.js
@@ -86,9 +87,10 @@ cypress/
 
 Groups test files by functionality:
 
+- `history.spec.js`: Transaction history validations.
 - `login.spec.js`: Login scenarios with valid and invalid data.
 - `signup.spec.js`: Full registration cases, including validations for required fields and invalid passwords.
-- `transactions.spec.js`: Transfer tests with and without balance, and transaction history validations.
+- `transactions.spec.js`: Transfer tests with and without balance.
 
 ### `/tests/Pages/`
 
@@ -104,7 +106,7 @@ Implements the **Page Object Pattern**:
 ### 🔐 Authentication (`login.spec.js`)
 
 - Login with a valid user.
-- Login with an incorrect password.
+- Login with an incorrect user or password.
 - Display of error messages.
 
 ### 👤 Registration (`signup.spec.js`)
@@ -123,6 +125,10 @@ Implements the **Page Object Pattern**:
 - Successful money transfer with available balance.
 - Attempt to transfer with insufficient balance.
 - Correct display of success or error messages.
+- Display of transactions in the user's transaction history.
+
+### 💸 Transaction History (`history.spec.js`)
+
 - Display of transactions in the user's transaction history.
 
 ---
