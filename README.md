@@ -127,7 +127,7 @@ Implements the **Page Object Pattern**:
 - Correct display of success or error messages.
 - Display of transactions in the user's transaction history.
 
-### 💸 Transaction History (`history.spec.js`)
+### 🧾 Transaction History (`history.spec.js`)
 
 - Display of transactions in the user's transaction history.
 
