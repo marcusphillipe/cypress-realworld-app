@@ -143,4 +143,6 @@ Implements the **Page Object Pattern**:
 
 ---
 
+🔍 [Test Cases and Bug Reports](https://docs.google.com/spreadsheets/d/1sxr3Wqpypk3kvEx2nc-82ijDKjvEb9DC/edit?usp=sharing&ouid=101019574855052859360&rtpof=true&sd=true)
+
 🔗 [Official base project documentation (cypress-realworld-app)](https://github.com/cypress-io/cypress-realworld-app)
